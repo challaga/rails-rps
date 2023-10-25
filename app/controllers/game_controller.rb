@@ -6,7 +6,9 @@ class GameController < ApplicationController
     render({ :template => "game_templates/flex"})
   end 
 
- 
+  def user_played_scissors
+    render({ :template => "game_templates/play_scissors"})
+  end
 
 
   def user_played_rock

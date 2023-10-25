@@ -1,4 +1,9 @@
-PagesController < ApplicationController
+class PagesController < ApplicationController
 
-render({ :template => "pages_templates/home" })
+def home
+  @date = Date.today.day
+  
+  render({ :template => "pages_templates/home" })
+end
+end
 
