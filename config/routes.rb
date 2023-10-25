@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get("/dynamic/:the_move", { :controller => "game", :action => "flexible"})
 
+
+
 end
