@@ -6,6 +6,9 @@ class GameController < ApplicationController
     render({ :template => "game_templates/flex"})
   end 
 
+ 
+
+
   def user_played_rock
     moves = ["rock", "paper", "scissors"]
 
